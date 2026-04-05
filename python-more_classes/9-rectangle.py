@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""hsagdjhgsdja"""
+"""salam"""
 
 
 class Rectangle:
-    "sdfsdfsd"
+    "salam"
     number_of_instances = 0
     print_symbol = "#"
 
@@ -90,4 +90,3 @@ class Rectangle:
     @classmethod
     def square(cls, size=0):
         return Rectangle(size, size)
- 
