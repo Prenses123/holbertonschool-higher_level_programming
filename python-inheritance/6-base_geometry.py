@@ -5,4 +5,4 @@
 class BaseGeometry:
     """jdjdj"""
     def area(self):
-        raise Exception(area() is not implemented)
+        raise Exception("{} is not implemented".format(BaseGeometry.area()))
