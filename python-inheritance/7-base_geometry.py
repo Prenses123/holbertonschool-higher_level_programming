@@ -10,8 +10,8 @@ class BaseGeometry:
                 raise TypeError("{} must be an integer".format(self.name))
             if self.value <= 0:
                 raise ValueError("{} must be greater than 0".format(self.name))
-        self.name = name
-        self.value = value
+            self.name = name
+            self.value = value
     def area(self):
         raise Exception("area() is not implemented".format())
 
