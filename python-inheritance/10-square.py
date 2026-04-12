@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"hjdsfkhd"
-Rectangle = __import__('9-rectangle.py').Rectangle
+"my module"
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    "dgdfgd"
+    "ddhfhfurgd"
     def __init__(self, size):
         self.integer_validator("size", size)
 
