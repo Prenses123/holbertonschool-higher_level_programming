@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 "my module"
-from abc import ABC
+from abc import ABC,abstractmethod
 
 
 class Animal(ABC):
