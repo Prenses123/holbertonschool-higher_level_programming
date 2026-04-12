@@ -9,7 +9,7 @@ class Animal(ABC):
         pass
 class Dog(Animal):
     def sound(self):
-        print(f"Bark")
+        print("Bark")
 class Cat(Animal):
     def sound(self):
-        print(f"Meow")
+        print("Meow")
