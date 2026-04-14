@@ -5,5 +5,5 @@
 def write_file(filename="", text=""):
     """add"""
     with open(filename, "w+", encoding="utf-8") as f:
-        f.write(text, end="\n")
+        f.write(text)
         print(f.read())
