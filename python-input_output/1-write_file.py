@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-"""This is a function."""
+"sdfsdfds"
 
 
 def write_file(filename="", text=""):
-    """add"""
-    with open(filename, "w+", encoding="utf-8") as f:
-        f.write(text)
-        f.seek(0)
-        print(f.read())
+    "fsdbhfsjk"
+    try:
+        with open(filename, 'w', encoding="utf-8") as f:
+            return f.write(text)
+    except FileNotFoundError:
+        with open(filename, 'w', encoding="utf-8") as f:
+            return f.write(text)
