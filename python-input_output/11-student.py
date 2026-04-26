@@ -17,3 +17,8 @@ class Student:
             return new_dict
         else:
             return self.__dict__
+
+    def reload_from_json(self, json):
+        for attr in json.keys():
+            self.__dict__[attr] = json[attr]
+        return self.__dict__
