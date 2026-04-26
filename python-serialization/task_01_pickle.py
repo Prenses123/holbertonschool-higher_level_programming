@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"json to dict"
+"pickle"
 import pickle
 
 
@@ -16,7 +16,7 @@ class CustomObject:
 
     def serialize(self, filename):
         try:
-            with open(filename, "wb", encoding="utf-8") as f:
+            with open(filename, "wb") as f:
                 return pickle.dump(self, f)
         except Exception:
             return None
