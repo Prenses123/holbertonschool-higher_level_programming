@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 "sdfsdfds"
-import json
 
 
 class Student:
@@ -12,14 +11,9 @@ class Student:
     def to_json(self, attrs=None):
         if isinstance(attrs, list):
             new_dict = {}
-            for i in attrs:
-                if isinstance(i, str) and i in self.__dict__:
-                    new_dict[i] = self.__dict__[i]
+            for attr in attrs:
+                if isinstance(attr, str) and attr in self.__dict__:
+                    new_dict[attr] = self.__dict__[attr]
             return new_dict
         else:
             return self.__dict__
-
-    def reload_from_json(self, json):
-        for i in json.keys():
-            self.__dict__[i] = json[i]
-        return self.__dict__
