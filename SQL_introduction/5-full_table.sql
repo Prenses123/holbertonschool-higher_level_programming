@@ -1,2 +1,2 @@
 -- show database code
-SHOW CREATE DATABASE
+SHOW CREATE TABLE first_table
