@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module 
+This module provides a type-annotated function to calculate the
+floor of a float.
 """
 import math
 
